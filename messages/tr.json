@@ -1,0 +1,192 @@
+{
+  "HomePage": {
+    "title": "Luna Den Spa Bodrum"
+  },
+  "header": {
+    "phone": {
+      "triggerLabel": "{phone} iletişim seçenekleri",
+      "call": "Telefonla ara",
+      "whatsapp": "WhatsApp'tan yaz"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Luna Den Spa & Wellness",
+      "title": "Bodrum'da bedeninizi dinlendiren sakin spa deneyimi",
+      "description": "Luna Den Spa Bodrum'da masaj, spa ve wellness uygulamalarıyla şehir ritminden uzaklaşın; özenli atmosferde kendinize iyi gelen bir mola verin.",
+      "services": "Hizmetlerimizi İncele",
+      "contact": "İletişime Geç"
+    },
+    "about": {
+      "badge": "Hakkımızda",
+      "title": "Bodrum'da dinginliği, bakımı ve profesyonel spa deneyimini bir araya getiriyoruz",
+      "description": "Luna Den Spa Bodrum, misafirlerine tatil temposu içinde sakinleşebilecekleri, bedenlerini dinlendirebilecekleri ve kendilerine özen gösterebilecekleri rahatlatıcı bir alan sunar. Masaj, spa ve wellness uygulamalarını hijyenik, sıcak ve özenli bir atmosferde planlıyoruz.",
+      "cta": "Hakkımızda detayları",
+      "imageAlt": "Luna Den Spa Bodrum hakkımızda görsel alanı",
+      "highlights": {
+        "expert": {
+          "title": "Uzman terapistler",
+          "description": "Deneyimli ekiplerle güven veren uygulamalar."
+        },
+        "calm": {
+          "title": "Sakin atmosfer",
+          "description": "Bodrum ritmine uyumlu huzurlu bakım alanları."
+        },
+        "personal": {
+          "title": "Kişiye özel deneyim",
+          "description": "İhtiyacınıza göre şekillenen spa seansları."
+        }
+      }
+    },
+    "services": {
+      "badge": "Hizmetlerimiz",
+      "intro": "Bodrum'da size iyi gelecek masaj, spa ve wellness seçenekleriyle bedeninizi dinlendirin.",
+      "cta": "Tüm hizmetleri incele",
+      "popularTitle": "Popüler Hizmetlerimiz",
+      "featured": {
+        "massage": {
+          "title": "Masaj Terapileri",
+          "description": "Kas gerginliğini azaltmaya ve bedeni rahatlatmaya odaklanan uygulamalar."
+        },
+        "spa": {
+          "title": "Spa Ritüelleri",
+          "description": "Sakin atmosferde yenileyici bakım adımlarıyla bütünsel deneyim."
+        },
+        "wellness": {
+          "title": "Wellness Bakımları",
+          "description": "Zihinsel dinginliği destekleyen kişiye özel rahatlama seansları."
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "Randevu ve bilgi",
+      "title": "Bodrum'da spa deneyiminizi planlamak için bize ulaşın.",
+      "description": "Hizmetler, müsaitlik ve randevu detayları için iletişim sayfasına geçebilir, doğrudan arayabilir ya da WhatsApp üzerinden bize yazabilirsiniz.",
+      "contactPage": "İletişim sayfası",
+      "call": "Hemen ara",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "badge": "Bodrum'da Luna Den Spa",
+      "title": "Bodrum'da dinginliği ve bakımı bir araya getiren özel spa deneyimi",
+      "description": "Luna Den Spa Bodrum, misafirlerine şehir temposundan uzaklaşabilecekleri, bedenlerini dinlendirebilecekleri ve kendilerine özen gösterebilecekleri sakin bir alan sunar. Masaj, spa ve wellness uygulamalarını hijyenik, sıcak ve profesyonel bir atmosferde planlıyor; her seansı misafirin ihtiyacına göre özenle şekillendiriyoruz.",
+      "imageAlt": "Luna Den Spa Bodrum hakkımızda görseli"
+    },
+    "gallery": {
+      "badge": "Şube atmosferi",
+      "title": "Spa atmosferimizi ve bakım alanlarımızı yakından inceleyin.",
+      "imageAlt": "Luna Den Spa Bodrum şube görseli {index}",
+      "open": "{index}. görseli aç",
+      "previous": "Önceki görsel",
+      "next": "Sonraki görsel",
+      "close": "Görseli kapat",
+      "dialogLabel": "Luna Den Spa Bodrum görsel galerisi"
+    },
+    "why": {
+      "badge": "Neden Luna Den Spa Bodrum?",
+      "title": "Her detayında konfor, hijyen ve profesyonel bakım anlayışı",
+      "description": "Bodrum'da rahatlamak, yenilenmek ve kaliteli bir spa deneyimi yaşamak isteyen misafirlerimiz için hizmet akışını sakin, güven veren ve ölçülü bir standartta kurguluyoruz.",
+      "items": {
+        "quality": {
+          "title": "Bakım kalitesini her adımda yüksek tutuyoruz",
+          "description": "Seans öncesinden çıkış anına kadar misafir deneyimini özenle planlıyoruz."
+        },
+        "safety": {
+          "title": "Hijyen ve güven standartlarını merkeze alıyoruz",
+          "description": "Temiz, düzenli ve sakin alanlarda profesyonel uygulamalar sunuyoruz."
+        },
+        "contact": {
+          "title": "Randevu ve bilgi sürecini kolaylaştırıyoruz",
+          "description": "Telefon ve WhatsApp üzerinden hızlıca bilgi alabilir, planınızı oluşturabilirsiniz."
+        }
+      }
+    }
+  },
+  "servicesPage": {
+    "badge": "Hizmetlerimiz",
+    "title": "Bodrum'da bedeninizi dinlendiren masaj ve spa deneyimleri",
+    "description": "Luna Den Spa Bodrum'da ihtiyaçlarınıza göre şekillenen masaj seçenekleriyle rahatlayabilir, sakin ve profesyonel bir bakım deneyimi yaşayabilirsiniz.",
+    "listTitle": "Masaj Hizmetlerimiz",
+    "listDescription": "Hizmet açıklamalarını incelemek için ilgili masaj başlığını açabilirsiniz.",
+    "images": {
+      "primaryAlt": "Luna Den Spa Bodrum hizmetlerimiz görseli",
+      "secondaryAlt": "Luna Den Spa Bodrum masaj hizmetleri görseli"
+    },
+    "items": {
+      "swedish": {
+        "title": "İsveç (Klasik) Masajı",
+        "description": "Kasları gevşetmeye ve kan dolaşımını desteklemeye yönelik, rahatlatıcı dokunuşlarla uygulanan, en yaygın tercih edilen masaj türlerinden biridir."
+      },
+      "bali": {
+        "title": "Bali Masajı",
+        "description": "Uzak Doğu tekniklerinden ilham alan bu özel terapi; ritmik dokunuşlar ve basınç teknikleriyle beden ve zihin dengesini destekleyerek derin bir rahatlama sağlar."
+      },
+      "deepTissue": {
+        "title": "Derin Doku Masajı",
+        "description": "Kas ve bağ dokularının derin katmanlarına etki eden bu terapi; yoğun kas gerginliklerini azaltmaya ve kronik ağrıları hafifletmeye yardımcı olur."
+      },
+      "medical": {
+        "title": "Medikal Masaj",
+        "description": "Uzman terapistler tarafından uygulanan, kas-iskelet sistemi kaynaklı rahatsızlıklara yönelik, hedef odaklı ve terapötik bir masaj uygulamasıdır."
+      },
+      "aromatherapy": {
+        "title": "Aromaterapi Masajı",
+        "description": "Doğal ve özel bitkisel yağlar eşliğinde uygulanan bu bütünsel terapi; zihinsel ve fiziksel rahatlama sağlayarak duyularınızı canlandırır."
+      },
+      "thaiMix": {
+        "title": "Thai Mix Masajı",
+        "description": "Thai ve klasik masaj tekniklerinin birleşimiyle uygulanan bu dinamik terapi; esneme ve bası teknikleri sayesinde vücuda esneklik ve hafiflik kazandırır."
+      },
+      "sultan": {
+        "title": "Sultan Masajı",
+        "description": "İki terapistin senkronize şekilde çalıştığı bu özel deneyim; derin gevşeme, maksimum konfor ve benzersiz bir lüks spa deneyimi sunar."
+      }
+    }
+  },
+  "contactPage": {
+    "badge": "İletişim",
+    "title": "Luna Den Spa Bodrum iletişim bilgileri",
+    "description": "Bodrum şubesine ulaşmak, randevu almak veya konum bilgilerini incelemek için ihtiyaç duyacağınız temel bilgileri burada bulabilirsiniz.",
+    "branch": {
+      "title": "Bodrum Şubesi",
+      "description": "Luna Den Spa Bodrum için adres, telefon ve WhatsApp üzerinden hızlı iletişim bilgileri."
+    },
+    "map": {
+      "title": "Luna Den Spa Bodrum harita konumu"
+    },
+    "labels": {
+      "address": "Adres",
+      "phone": "Telefon"
+    },
+    "actions": {
+      "call": "Telefonla ara",
+      "whatsapp": "WhatsApp",
+      "directions": "Haritada aç"
+    }
+  },
+  "navigation": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetlerimiz",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "description": "Luna Den Spa Bodrum'da masaj, spa ve wellness deneyimini sakin ve özenli bir atmosferde yaşayın.",
+    "quickLinks": "Hızlı bağlantılar",
+    "copyright": "© 2026 Luna Den Spa Bodrum. Tüm hakları saklıdır."
+  },
+  "errorPage": {
+    "eyebrow": "Bir hata oluştu",
+    "title": "Beklenmeyen bir sorun oluştu",
+    "description": "Sayfa yüklenirken bir hata oluştu. Tekrar deneyebilir ya da anasayfaya dönebilirsin.",
+    "retry": "Tekrar dene",
+    "home": "Anasayfa"
+  },
+  "notFoundPage": {
+    "title": "Sayfa bulunamadı",
+    "description": "Aradığın sayfa taşınmış, kaldırılmış ya da hiç oluşturulmamış olabilir.",
+    "home": "Anasayfa"
+  }
+}

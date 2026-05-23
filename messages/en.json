@@ -1,0 +1,192 @@
+{
+  "HomePage": {
+    "title": "Luna Den Spa Bodrum"
+  },
+  "header": {
+    "phone": {
+      "triggerLabel": "{phone} contact options",
+      "call": "Call by phone",
+      "whatsapp": "Message on WhatsApp"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Luna Den Spa & Wellness",
+      "title": "A calm spa experience that restores your body in Bodrum",
+      "description": "Step away from the rhythm of the city at Luna Den Spa Bodrum with massage, spa, and wellness treatments in a carefully designed atmosphere.",
+      "services": "Explore Services",
+      "contact": "Contact Us"
+    },
+    "about": {
+      "badge": "About Us",
+      "title": "Bringing calm, care, and a professional spa experience together in Bodrum",
+      "description": "Luna Den Spa Bodrum offers guests a relaxing space where they can slow down during their holiday, rest their body, and make time for personal care. We plan massage, spa, and wellness treatments in a hygienic, warm, and attentive atmosphere.",
+      "cta": "About us details",
+      "imageAlt": "Luna Den Spa Bodrum about image area",
+      "highlights": {
+        "expert": {
+          "title": "Expert therapists",
+          "description": "Reliable treatments with an experienced team."
+        },
+        "calm": {
+          "title": "Calm atmosphere",
+          "description": "Peaceful care spaces aligned with Bodrum's rhythm."
+        },
+        "personal": {
+          "title": "Personalized experience",
+          "description": "Spa sessions shaped around your needs."
+        }
+      }
+    },
+    "services": {
+      "badge": "Services",
+      "intro": "Rest your body with massage, spa, and wellness options designed to feel good in Bodrum.",
+      "cta": "Explore all services",
+      "popularTitle": "Popular Services",
+      "featured": {
+        "massage": {
+          "title": "Massage Therapies",
+          "description": "Treatments focused on reducing muscle tension and relaxing the body."
+        },
+        "spa": {
+          "title": "Spa Rituals",
+          "description": "A holistic experience with renewing care steps in a calm atmosphere."
+        },
+        "wellness": {
+          "title": "Wellness Care",
+          "description": "Personalized relaxation sessions that support mental calm."
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "Reservation and info",
+      "title": "Contact us to plan your spa experience in Bodrum.",
+      "description": "Visit the contact page for service, availability, and reservation details, call us directly, or message us on WhatsApp.",
+      "contactPage": "Contact page",
+      "call": "Call now",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "badge": "Luna Den Spa in Bodrum",
+      "title": "A refined spa experience that brings calm and care together in Bodrum",
+      "description": "Luna Den Spa Bodrum offers guests a calm space where they can step away from the pace of the day, rest their body, and make time for personal care. We plan massage, spa, and wellness treatments in a hygienic, warm, and professional atmosphere, shaping each session around the guest's needs.",
+      "imageAlt": "Luna Den Spa Bodrum about image"
+    },
+    "gallery": {
+      "badge": "Branch atmosphere",
+      "title": "Take a closer look at our spa atmosphere and care spaces.",
+      "imageAlt": "Luna Den Spa Bodrum branch image {index}",
+      "open": "Open image {index}",
+      "previous": "Previous image",
+      "next": "Next image",
+      "close": "Close image",
+      "dialogLabel": "Luna Den Spa Bodrum image gallery"
+    },
+    "why": {
+      "badge": "Why Luna Den Spa Bodrum?",
+      "title": "Comfort, hygiene, and professional care in every detail",
+      "description": "For guests who want to relax, renew, and enjoy a quality spa experience in Bodrum, we design the service flow with a calm, reliable, and thoughtful standard.",
+      "items": {
+        "quality": {
+          "title": "We keep care quality high at every step",
+          "description": "From before the session to the moment you leave, the guest experience is planned with attention."
+        },
+        "safety": {
+          "title": "We place hygiene and trust at the center",
+          "description": "We offer professional treatments in clean, organized, and peaceful spaces."
+        },
+        "contact": {
+          "title": "We make reservation and information easy",
+          "description": "You can quickly get information by phone or WhatsApp and plan your visit."
+        }
+      }
+    }
+  },
+  "servicesPage": {
+    "badge": "Services",
+    "title": "Massage and spa experiences that relax your body in Bodrum",
+    "description": "At Luna Den Spa Bodrum, you can relax with massage options shaped around your needs and enjoy a calm, professional care experience.",
+    "listTitle": "Massage Services",
+    "listDescription": "Open the relevant massage title to review the service description.",
+    "images": {
+      "primaryAlt": "Luna Den Spa Bodrum services visual",
+      "secondaryAlt": "Luna Den Spa Bodrum massage services visual"
+    },
+    "items": {
+      "swedish": {
+        "title": "Swedish (Classic) Massage",
+        "description": "One of the most commonly preferred massage types, applied with relaxing touches to help loosen the muscles and support blood circulation."
+      },
+      "bali": {
+        "title": "Balinese Massage",
+        "description": "Inspired by Far Eastern techniques, this special therapy supports body and mind balance with rhythmic touches and pressure techniques for deep relaxation."
+      },
+      "deepTissue": {
+        "title": "Deep Tissue Massage",
+        "description": "This therapy works on the deeper layers of muscle and connective tissue, helping reduce intense muscle tension and ease chronic discomfort."
+      },
+      "medical": {
+        "title": "Medical Massage",
+        "description": "A targeted and therapeutic massage performed by expert therapists for musculoskeletal discomfort."
+      },
+      "aromatherapy": {
+        "title": "Aromatherapy Massage",
+        "description": "This holistic therapy is performed with natural and special botanical oils, helping provide mental and physical relaxation while awakening the senses."
+      },
+      "thaiMix": {
+        "title": "Thai Mix Massage",
+        "description": "A dynamic therapy combining Thai and classic massage techniques, bringing flexibility and lightness to the body through stretching and pressure techniques."
+      },
+      "sultan": {
+        "title": "Sultan Massage",
+        "description": "A special experience where two therapists work in sync, offering deep relaxation, maximum comfort, and a unique luxury spa experience."
+      }
+    }
+  },
+  "contactPage": {
+    "badge": "Contact",
+    "title": "Luna Den Spa Bodrum contact details",
+    "description": "Find the essential details you need to reach the Bodrum branch, make an appointment, or review the location.",
+    "branch": {
+      "title": "Bodrum Branch",
+      "description": "Address, phone, and WhatsApp details for quick contact with Luna Den Spa Bodrum."
+    },
+    "map": {
+      "title": "Luna Den Spa Bodrum map location"
+    },
+    "labels": {
+      "address": "Address",
+      "phone": "Phone"
+    },
+    "actions": {
+      "call": "Call by phone",
+      "whatsapp": "WhatsApp",
+      "directions": "Open in Maps"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "footer": {
+    "description": "Experience massage, spa, and wellness in a calm and carefully designed atmosphere at Luna Den Spa Bodrum.",
+    "quickLinks": "Quick links",
+    "copyright": "© 2026 Luna Den Spa Bodrum. All rights reserved."
+  },
+  "errorPage": {
+    "eyebrow": "Something went wrong",
+    "title": "An unexpected problem occurred",
+    "description": "There was a problem loading the page. Try again or return to the homepage.",
+    "retry": "Try again",
+    "home": "Home"
+  },
+  "notFoundPage": {
+    "title": "Page not found",
+    "description": "The page you are looking for may have moved, been removed, or not exist yet.",
+    "home": "Home"
+  }
+}

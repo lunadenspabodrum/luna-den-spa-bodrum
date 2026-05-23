@@ -1,0 +1,12 @@
+# Canonical redirects for Cloudflare Pages.
+# Public route files are generated directly into `out` by
+# `scripts/prepare-cloudflare-output.mjs`, so no 200 route rewrites are needed.
+
+/tr / 301
+/tr/hakkimizda /hakkimizda 301
+/tr/hizmetlerimiz /hizmetlerimiz 301
+/tr/iletisim /iletisim 301
+
+/en/hakkimizda /en/about 301
+/en/hizmetlerimiz /en/services 301
+/en/iletisim /en/contact 301
