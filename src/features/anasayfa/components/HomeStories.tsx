@@ -19,7 +19,6 @@ type Story = Readonly<{
   name: string;
   initials: string;
   message: LocalizedText;
-  service: LocalizedText;
   avatarClassName: string;
 }>;
 
@@ -35,7 +34,6 @@ const storyLabels: Readonly<
       open: string;
       previous: string;
       stars: string;
-      verified: string;
     }
   >
 > = {
@@ -46,7 +44,6 @@ const storyLabels: Readonly<
     open: "yorumunu aç",
     previous: "Önceki yorum",
     stars: "5 yıldız",
-    verified: "Doğrulanmış yorum",
   },
   en: {
     close: "Close review",
@@ -55,7 +52,6 @@ const storyLabels: Readonly<
     open: "open review",
     previous: "Previous review",
     stars: "5 stars",
-    verified: "Verified review",
   },
 };
 
@@ -63,10 +59,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Buse Burma",
     initials: "BB",
-    service: {
-      tr: "Bali Masajı",
-      en: "Balinese Massage",
-    },
     message: {
       tr: "Bodrum'da tatilimin en sakin anıydı. Masaj sonrası hem bedenim hem zihnim gerçekten hafifledi.",
       en: "It was the calmest moment of my holiday in Bodrum. After the massage, both my body and mind felt genuinely lighter.",
@@ -76,10 +68,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Buğrahan Umay Şafak",
     initials: "BU",
-    service: {
-      tr: "Klasik Masaj",
-      en: "Classic Massage",
-    },
     message: {
       tr: "Profesyonel ekip, tertemiz alanlar ve çok iyi planlanmış bir seans. Bel gerginliğim belirgin şekilde azaldı.",
       en: "A professional team, spotless rooms, and a very well-planned session. The tension in my lower back noticeably eased.",
@@ -89,10 +77,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Mert Demirhan",
     initials: "MD",
-    service: {
-      tr: "Aromaterapi",
-      en: "Aromatherapy",
-    },
     message: {
       tr: "Koku, müzik ve bakım ritmi çok dengeliydi. Kendimi özel hissettiren dingin bir deneyim oldu.",
       en: "The scent, music, and treatment rhythm were beautifully balanced. It was a calm experience that made me feel cared for.",
@@ -102,10 +86,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Emirhan Aydın",
     initials: "EA",
-    service: {
-      tr: "Derin Doku",
-      en: "Deep Tissue",
-    },
     message: {
       tr: "Spor sonrası sertliklerim için gittim. Uygulama güçlü ama kontrollüydü, terapist her adımı çok iyi yönetti.",
       en: "I went for post-workout stiffness. The pressure was strong but controlled, and the therapist guided every step very well.",
@@ -115,10 +95,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Kaan Yıldız",
     initials: "KY",
-    service: {
-      tr: "Spa Ritüeli",
-      en: "Spa Ritual",
-    },
     message: {
       tr: "Gün batımından önce aldığım seans bütün günün yorgunluğunu aldı. Bodrum atmosferine çok yakışan bir yer.",
       en: "My session before sunset took away the tiredness of the whole day. It is a place that fits the Bodrum atmosphere so well.",
@@ -128,10 +104,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Begüm Er",
     initials: "BE",
-    service: {
-      tr: "Wellness Bakımı",
-      en: "Wellness Care",
-    },
     message: {
       tr: "Rezervasyondan çıkışa kadar her şey sakindi. Kendime ayırdığım en iyi molalardan biri oldu.",
       en: "Everything was calm from reservation to checkout. It became one of the best breaks I have taken for myself.",
@@ -141,10 +113,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Deniz Arman",
     initials: "DA",
-    service: {
-      tr: "Medikal Masaj",
-      en: "Medical Massage",
-    },
     message: {
       tr: "Boyun ve omuz ağrılarım için gittim. Nokta atışı uygulama ve sakin anlatım sayesinde çok rahatladım.",
       en: "I went for neck and shoulder pain. The focused treatment and calm explanation helped me relax deeply.",
@@ -154,10 +122,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Elif Sönmez",
     initials: "ES",
-    service: {
-      tr: "Cilt Bakımı",
-      en: "Skin Care",
-    },
     message: {
       tr: "Cildim seans sonrası çok daha canlı görünüyordu. Kullanılan ürünler ve ortamın temizliği güven verdi.",
       en: "My skin looked much more vibrant after the session. The products used and the cleanliness of the space gave me confidence.",
@@ -167,10 +131,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Kerem Uzun",
     initials: "KU",
-    service: {
-      tr: "Spor Masajı",
-      en: "Sports Massage",
-    },
     message: {
       tr: "Antrenman sonrası toparlanmak için tercih ettim. Baskı seviyesi tam istediğim gibiydi.",
       en: "I chose it for recovery after training. The pressure level was exactly what I wanted.",
@@ -180,10 +140,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Lara Ekin",
     initials: "LE",
-    service: {
-      tr: "Çift Masajı",
-      en: "Couples Massage",
-    },
     message: {
       tr: "Rezervasyon çok kolaydı, seans boyunca hiçbir detay aceleye gelmedi. Çok zarif bir deneyimdi.",
       en: "Booking was very easy, and no detail felt rushed during the session. It was a very refined experience.",
@@ -193,10 +149,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Ozan Bora",
     initials: "OB",
-    service: {
-      tr: "Refleksoloji",
-      en: "Reflexology",
-    },
     message: {
       tr: "Kısa bir mola için uğradım ama etkisi tüm güne yayıldı. Personel çok ilgili ve ölçülüydü.",
       en: "I stopped by for a short break, but the effect lasted all day. The staff was attentive and thoughtful.",
@@ -206,10 +158,6 @@ const stories: ReadonlyArray<Story> = [
   {
     name: "Nil Karaca",
     initials: "NK",
-    service: {
-      tr: "Hamam Ritüeli",
-      en: "Hammam Ritual",
-    },
     message: {
       tr: "Bodrum'da kendime ayırdığım en keyifli saatti. Hem ferah hem çok özenli hissettirdi.",
       en: "It was the most enjoyable hour I set aside for myself in Bodrum. It felt both refreshing and very thoughtful.",
@@ -356,18 +304,18 @@ export function HomeStories() {
   return (
     <Section spacing="sm" className="bg-background">
       <Container>
-        <div className="-my-1 overflow-x-auto py-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="-my-1 overflow-x-auto py-1 scrollbar-none [&::-webkit-scrollbar]:hidden">
           <div className="flex min-w-max items-start justify-between lg:min-w-0">
             {stories.map((story, index) => (
               <button
                 key={story.name}
                 type="button"
                 onClick={() => openStory(index)}
-                className="group grid w-16 justify-items-center gap-1.5 text-center outline-none sm:w-[72px]"
+                className="group grid w-16 justify-items-center gap-1.5 text-center outline-none sm:w-18"
                 aria-label={`${story.name} ${labels.open}`}
               >
-                <span className="rounded-full bg-gradient-to-tr from-[#f0b347] via-[#d94b92] to-[#7557d8] p-[2px] transition group-hover:scale-105 group-focus-visible:ring-3 group-focus-visible:ring-ring/40">
-                  <span className="block rounded-full bg-background p-[3px]">
+                <span className="rounded-full bg-linear-to-tr from-[#f0b347] via-[#d94b92] to-[#7557d8] p-0.5 transition group-hover:scale-105 group-focus-visible:ring-3 group-focus-visible:ring-ring/40">
+                  <span className="block rounded-full bg-background p-0.75">
                     <span
                       className={cn(
                         "grid size-12 place-items-center rounded-full text-lg font-semibold sm:size-14 sm:text-xl",
@@ -397,7 +345,7 @@ export function HomeStories() {
                   aria-modal="true"
                   aria-label={`${activeStory.name} ${labels.googleReview}`}
                   onClick={closeStory}
-                  className="fixed inset-0 z-[100] flex items-center justify-center bg-black px-3 py-4"
+                  className="fixed inset-0 z-100 flex items-center justify-center bg-black px-3 py-4"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
@@ -433,7 +381,7 @@ export function HomeStories() {
 
                   <motion.article
                     onClick={(event) => event.stopPropagation()}
-                    className="relative z-10 flex h-[min(680px,calc(100svh-28px))] w-full max-w-[390px] flex-col overflow-hidden rounded-[1.55rem] bg-[#fbf7ef] shadow-[0_24px_80px_rgba(0,0,0,0.5)]"
+                    className="relative z-10 flex h-[min(680px,calc(100svh-28px))] w-full max-w-97.5 flex-col overflow-hidden rounded-[1.55rem] bg-[#fbf7ef] shadow-[0_24px_80px_rgba(0,0,0,0.5)]"
                     initial={{ opacity: 0, y: 34, scale: 0.94 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 22, scale: 0.96 }}
@@ -442,104 +390,103 @@ export function HomeStories() {
                       ease: [0.16, 1, 0.3, 1],
                     }}
                   >
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_12%,rgba(255,255,255,0.85),transparent_34%),linear-gradient(160deg,rgba(107,70,24,0.13),transparent_42%),linear-gradient(0deg,rgba(33,27,20,0.06),transparent_40%)]" />
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_12%,rgba(255,255,255,0.85),transparent_34%),linear-gradient(160deg,rgba(107,70,24,0.13),transparent_42%),linear-gradient(0deg,rgba(33,27,20,0.06),transparent_40%)]" />
 
-                <div className="relative z-10 flex gap-1 px-4 pt-4">
-                  {stories.map((story, index) => (
-                    <span
-                      key={story.name}
-                      className="h-1 flex-1 overflow-hidden rounded-full bg-black/20"
-                    >
-                      <span
-                        className="block h-full rounded-full bg-white"
-                        style={{
-                          width:
-                            index < activeIndex
-                              ? "100%"
-                              : index === activeIndex
-                                ? `${progress}%`
-                                : "0%",
-                        }}
-                      />
-                    </span>
-                  ))}
-                </div>
-
-                <header className="relative z-10 flex items-center gap-3 px-5 pt-4">
-                  <span
-                    className={cn(
-                      "grid size-11 place-items-center rounded-full text-base font-semibold",
-                      activeStory.avatarClassName,
-                    )}
-                  >
-                    {activeStory.initials}
-                  </span>
-                  <div className="min-w-0 flex-1">
-                    <h2 className="truncate text-sm font-semibold text-[#064b39]">
-                      {activeStory.name}
-                    </h2>
-                  </div>
-                  <Button
-                    type="button"
-                    variant="ghost"
-                    size="icon"
-                    onClick={closeStory}
-                    aria-label={labels.close}
-                    className="rounded-full text-[#064b39] hover:bg-black/5"
-                  >
-                    <X className="size-5" />
-                  </Button>
-                </header>
-
-                <div className="absolute inset-x-0 bottom-0 top-20 z-20 grid grid-cols-2">
-                  <button
-                    type="button"
-                    onClick={showPreviousStory}
-                    aria-label={labels.previous}
-                  />
-                  <button
-                    type="button"
-                    onClick={showNextStory}
-                    aria-label={labels.next}
-                  />
-                </div>
-
-                <div className="relative z-10 flex flex-1 flex-col justify-center px-6 py-6">
-                  <div className="rounded-[1.25rem] bg-white/88 p-5 shadow-[0_18px_55px_rgba(33,27,20,0.13)] backdrop-blur">
-                    <div className="flex items-center gap-3">
-                      <span
-                        className={cn(
-                          "grid size-14 place-items-center rounded-full text-2xl font-semibold",
-                          activeStory.avatarClassName,
-                        )}
-                      >
-                        {activeStory.initials.slice(0, 1)}
-                      </span>
-                      <div className="min-w-0">
-                        <h3 className="truncate text-xl font-bold leading-tight text-[#064b39]">
-                          {activeStory.name}
-                        </h3>
-                      </div>
-                    </div>
-
-                    <div
-                      className="mt-7 flex gap-1 text-[#f3c600]"
-                      aria-label={labels.stars}
-                    >
-                      {Array.from({ length: 5 }).map((_, index) => (
-                        <Star
-                          key={index}
-                          className="size-5 fill-current stroke-current"
-                        />
+                    <div className="relative z-10 flex gap-1 px-4 pt-4">
+                      {stories.map((story, index) => (
+                        <span
+                          key={story.name}
+                          className="h-1 flex-1 overflow-hidden rounded-full bg-black/20"
+                        >
+                          <span
+                            className="block h-full rounded-full bg-white"
+                            style={{
+                              width:
+                                index < activeIndex
+                                  ? "100%"
+                                  : index === activeIndex
+                                    ? `${progress}%`
+                                    : "0%",
+                            }}
+                          />
+                        </span>
                       ))}
                     </div>
 
-                    <blockquote className="mt-6 text-[1.22rem] font-medium leading-snug text-[#1e293b]">
-                      {activeStory.message[contentLocale]}
-                    </blockquote>
+                    <header className="relative z-10 flex items-center gap-3 px-5 pt-4">
+                      <span
+                        className={cn(
+                          "grid size-11 place-items-center rounded-full text-base font-semibold",
+                          activeStory.avatarClassName,
+                        )}
+                      >
+                        {activeStory.initials}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <h2 className="truncate text-sm font-semibold text-[#064b39]">
+                          {activeStory.name}
+                        </h2>
+                      </div>
+                      <Button
+                        type="button"
+                        variant="ghost"
+                        size="icon"
+                        onClick={closeStory}
+                        aria-label={labels.close}
+                        className="rounded-full text-[#064b39] hover:bg-black/5"
+                      >
+                        <X className="size-5" />
+                      </Button>
+                    </header>
 
-                  </div>
-                </div>
+                    <div className="absolute inset-x-0 bottom-0 top-20 z-20 grid grid-cols-2">
+                      <button
+                        type="button"
+                        onClick={showPreviousStory}
+                        aria-label={labels.previous}
+                      />
+                      <button
+                        type="button"
+                        onClick={showNextStory}
+                        aria-label={labels.next}
+                      />
+                    </div>
+
+                    <div className="relative z-10 flex flex-1 flex-col justify-center px-6 py-6">
+                      <div className="rounded-[1.25rem] bg-white/88 p-5 shadow-[0_18px_55px_rgba(33,27,20,0.13)] backdrop-blur">
+                        <div className="flex items-center gap-3">
+                          <span
+                            className={cn(
+                              "grid size-14 place-items-center rounded-full text-2xl font-semibold",
+                              activeStory.avatarClassName,
+                            )}
+                          >
+                            {activeStory.initials.slice(0, 1)}
+                          </span>
+                          <div className="min-w-0">
+                            <h3 className="truncate text-xl font-bold leading-tight text-[#064b39]">
+                              {activeStory.name}
+                            </h3>
+                          </div>
+                        </div>
+
+                        <div
+                          className="mt-7 flex gap-1 text-[#f3c600]"
+                          aria-label={labels.stars}
+                        >
+                          {Array.from({ length: 5 }).map((_, index) => (
+                            <Star
+                              key={index}
+                              className="size-5 fill-current stroke-current"
+                            />
+                          ))}
+                        </div>
+
+                        <blockquote className="mt-6 text-[1.22rem] font-medium leading-snug text-[#1e293b]">
+                          {activeStory.message[contentLocale]}
+                        </blockquote>
+                      </div>
+                    </div>
                   </motion.article>
                 </motion.div>
               ) : null}
