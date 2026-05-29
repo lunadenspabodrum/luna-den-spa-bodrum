@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 
 import { Footer } from "@/components/layout/footer/footer";
 import { Header } from "@/components/layout/header/header";
+import { GoogleAdsConversions } from "@/components/analytics/google-ads-conversions";
 import { PageTransition } from "@/components/providers/page-transition";
 import { siteConfig } from "@/data/site";
 import { routing } from "@/i18n/routing";
@@ -63,6 +64,7 @@ export default async function LocaleLayout({
             <PageTransition>{children}</PageTransition>
           </main>
           <Footer />
+          <GoogleAdsConversions />
         </NextIntlClientProvider>
       </body>
     </html>

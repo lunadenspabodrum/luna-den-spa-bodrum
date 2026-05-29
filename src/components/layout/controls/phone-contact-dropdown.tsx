@@ -35,14 +35,24 @@ export function PhoneContactDropdown() {
 
       <DropdownMenuContent align="end" className="w-56">
         <DropdownMenuItem asChild>
-          <a href={phoneHref}>
+          <a
+            href={phoneHref}
+            data-conversion="phone"
+            data-conversion-location="header"
+          >
             <Phone className="size-4" />
             <span>{t("call")}</span>
           </a>
         </DropdownMenuItem>
 
         <DropdownMenuItem asChild>
-          <a href={whatsappHref} target="_blank" rel="noreferrer">
+          <a
+            href={whatsappHref}
+            target="_blank"
+            rel="noreferrer"
+            data-conversion="whatsapp"
+            data-conversion-location="header"
+          >
             <MessageCircle className="size-4" />
             <span>{t("whatsapp")}</span>
           </a>

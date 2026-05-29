@@ -63,14 +63,24 @@ export function HomeContact() {
               </Button>
 
               <Button asChild variant="outline" className="h-11 px-5">
-                <a href={contactPhoneHref}>
+                <a
+                  href={contactPhoneHref}
+                  data-conversion="phone"
+                  data-conversion-location="home-contact"
+                >
                   {t("call")}
                   <Phone className="size-4" />
                 </a>
               </Button>
 
               <Button asChild variant="outline" className="h-11 px-5">
-                <a href={whatsappHref} target="_blank" rel="noreferrer">
+                <a
+                  href={whatsappHref}
+                  target="_blank"
+                  rel="noreferrer"
+                  data-conversion="whatsapp"
+                  data-conversion-location="home-contact"
+                >
                   {t("whatsapp")}
                   <MessageCircle className="size-4" />
                 </a>
